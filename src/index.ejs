@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Periodic Table</title>
+  <link rel="shortcut icon" href="../public/favicon.ico" type="image/x-icon">k
+</head>
+
+<body>
+  <%
+  const { readFileSync } = require('fs'),
+    jsonFile = readFileSync("data/periodic_table.json"),
+    Elements = JSON.parse(jsonFile),
+    ElementsCopy = [...Elements], 
+    Lanthanoids = ElementsCopy.splice(56, 15),
+    Actinoids = ElementsCopy.splice(73, 15),
+    OtherElements = ElementsCopy;
+  %>
+  <header id="page-header">
+    <h1 id="page-header-heading">Periodic Table</h1>
+  </header>
+  <main>
+    <div id="container-info-element">
+      <% for( let { atomicNumber, atomicMass, elementName, elementSymbol, classification, density, meltingPoint, boilingPoint } of Elements ) { %>
+      <div class="info-element <%= atomicNumber != 1 ? "non-display" : "" %>" id="<%= elementSymbol %>-info">
+        <div class="info-element-box">
+          <div class="info-element-box-atomic-number"><%= atomicNumber %> </div>
+          <div class="info-element-box-symbol"><%= elementSymbol %> </div>
+        </div>
+        <div class="info-element-text">
+          <h2 class="info-element-text-heading"> <%= elementName %> </h2>
+          <div> <strong>Atomic mass:</strong><%= atomicMass %> </div>
+          <div> <strong>Classification:</strong> <%= classification %> </div>
+          <div> <strong>Density:</strong> <%= density ?? 'N/A' %> g/mol </div>
+          <div> <strong>Melting point:</strong> <%= meltingPoint ?? 'N/A' %> K </div>
+          <div> <strong>Boiling point:</strong> <%= boilingPoint ?? 'N/A' %> K </div>
+        </div>
+      </div>
+      <% } %>
+    </div>
+    <div id="periodic-table">
+      <div class="container" id="periodic-table-main">
+        <% for( let { atomicNumber, elementName, elementSymbol, classification } of OtherElements ) { %>
+        <div id="<%= elementSymbol %>" class="container-element <%= classification.toLowerCase().replace(/\s/g, "-") %>">
+          <div class="container-element-atomic-number"><%= atomicNumber %> </div>
+          <div class="container-element-symbol"><%= elementSymbol %> </div>
+          <div class="container-element-name"> <%= elementName %> </div>
+        </div>
+        <% if ([1, 4, 12, 56, 88].includes(atomicNumber)) { %>
+        <div class="white-space" id="white-space-<%= elementSymbol%>">
+          <%= atomicNumber == 56 ? "57-71" : atomicNumber == 88 ? "89-103" : "" %>
+        </div>
+        <% } %>
+        <% } %>
+      </div>
+      <div class="container" id="periodic-table-lanthanoids">
+        <% for( let { atomicNumber, elementName, elementSymbol } of Lanthanoids ) { %>
+        <div id="<%= elementSymbol %>" class="container-element lanthanoids">
+          <div class="container-element-atomic-number"><%= atomicNumber %> </div>
+          <div class="container-element-symbol"><%= elementSymbol %> </div>
+          <div class="container-element-name"> <%= elementName %> </div>
+        </div>
+        <% } %>
+      </div>
+      <div class="container" id="periodic-table-actinoids">
+        <% for( let { atomicNumber, elementName, elementSymbol } of Actinoids ) { %>
+        <div id="<%= elementSymbol %>" class="container-element actinoids">
+          <div class="container-element-number"><%= atomicNumber %> </div>
+          <div class="container-element-symbol"><%= elementSymbol %> </div>
+          <div class="container-element-name"> <%= elementName %> </div>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Visit this project's <a href="https://github.com/amartinsmg/WebUnitConverter">repository</a>.<br>
+      Made by <a href="https://amartinsmg.github.io">amartinsmg</a>.
+      <a href="https://www.flaticon.com/free-icons/copper" title="copper icons"
+      >Copper icons created by Smashicons - Flaticon</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
