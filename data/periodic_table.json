@@ -1,0 +1,1146 @@
+[
+    {
+        "elementName": "Hydrogen",
+        "elementSymbol": "H",
+        "atomicNumber": 1,
+        "classification": "Other nonmetals",
+        "atomicMass": 1.0078,
+        "density": 8.99e-05,
+        "meltingPoint": 14.01,
+        "boilingPoint": 20.28
+    },
+    {
+        "elementName": "Helium",
+        "elementSymbol": "He",
+        "atomicNumber": 2,
+        "classification": "Noble gases",
+        "atomicMass": 4.0026,
+        "density": 0.00017846,
+        "meltingPoint": 0.95,
+        "boilingPoint": 4.25
+    },
+    {
+        "elementName": "Lithium",
+        "elementSymbol": "Li",
+        "atomicNumber": 3,
+        "classification": "Alkali metals",
+        "atomicMass": 6.941,
+        "density": 0.534,
+        "meltingPoint": 453.65,
+        "boilingPoint": 1615.15
+    },
+    {
+        "elementName": "Beryllium",
+        "elementSymbol": "Be",
+        "atomicNumber": 4,
+        "classification": "Alkaline earth metals",
+        "atomicMass": 9.0121,
+        "density": 1.848,
+        "meltingPoint": 1551.15,
+        "boilingPoint": 3243.15
+    },
+    {
+        "elementName": "Boron",
+        "elementSymbol": "B",
+        "atomicNumber": 5,
+        "classification": "Metalloids",
+        "atomicMass": 10.811,
+        "density": 2.34,
+        "meltingPoint": 2348.95,
+        "boilingPoint": 4199.95
+    },
+    {
+        "elementName": "Carbon",
+        "elementSymbol": "C",
+        "atomicNumber": 6,
+        "classification": "Other nonmetals",
+        "atomicMass": 12.0107,
+        "density": 2.26,
+        "meltingPoint": 3823.15,
+        "boilingPoint": 5100.15
+    },
+    {
+        "elementName": "Nitrogen",
+        "elementSymbol": "N",
+        "atomicNumber": 7,
+        "classification": "Other nonmetals",
+        "atomicMass": 14.0067,
+        "density": 0.001251,
+        "meltingPoint": 63.25,
+        "boilingPoint": 77.35
+    },
+    {
+        "elementName": "Oxygen",
+        "elementSymbol": "O",
+        "atomicNumber": 8,
+        "classification": "Other nonmetals",
+        "atomicMass": 15.9994,
+        "density": 0.00142897,
+        "meltingPoint": 54.36,
+        "boilingPoint": 90.19
+    },
+    {
+        "elementName": "Fluorine",
+        "elementSymbol": "F",
+        "atomicNumber": 9,
+        "classification": "Halogens",
+        "atomicMass": 18.9984,
+        "density": 0.001696,
+        "meltingPoint": 53.48,
+        "boilingPoint": 85.04
+    },
+    {
+        "elementName": "Neon",
+        "elementSymbol": "Ne",
+        "atomicNumber": 10,
+        "classification": "Noble gases",
+        "atomicMass": 20.1797,
+        "density": 0.0009002,
+        "meltingPoint": 24.48,
+        "boilingPoint": 27.1
+    },
+    {
+        "elementName": "Sodium",
+        "elementSymbol": "Na",
+        "atomicNumber": 11,
+        "classification": "Alkali metals",
+        "atomicMass": 22.9897,
+        "density": 0.971,
+        "meltingPoint": 370.95,
+        "boilingPoint": 1156.09
+    },
+    {
+        "elementName": "Magnesium",
+        "elementSymbol": "Mg",
+        "atomicNumber": 12,
+        "classification": "Alkaline earth metals",
+        "atomicMass": 24.305,
+        "density": 1.738,
+        "meltingPoint": 923.15,
+        "boilingPoint": 1363.15
+    },
+    {
+        "elementName": "Aluminum",
+        "elementSymbol": "Al",
+        "atomicNumber": 13,
+        "classification": "Post-transition metals",
+        "atomicMass": 26.9815,
+        "density": 2.6989,
+        "meltingPoint": 933.15,
+        "boilingPoint": 2791.97
+    },
+    {
+        "elementName": "Silicon",
+        "elementSymbol": "Si",
+        "atomicNumber": 14,
+        "classification": "Metalloids",
+        "atomicMass": 28.0855,
+        "density": 2.33,
+        "meltingPoint": 1688.0,
+        "boilingPoint": 3538.15
+    },
+    {
+        "elementName": "Phosphorus",
+        "elementSymbol": "P",
+        "atomicNumber": 15,
+        "classification": "Other nonmetals",
+        "atomicMass": 30.9737,
+        "density": 2.82,
+        "meltingPoint": 317.3,
+        "boilingPoint": 553.65
+    },
+    {
+        "elementName": "Sulfur",
+        "elementSymbol": "S",
+        "atomicNumber": 16,
+        "classification": "Other nonmetals",
+        "atomicMass": 32.065,
+        "density": 2.07,
+        "meltingPoint": 385.95,
+        "boilingPoint": 717.82
+    },
+    {
+        "elementName": "Chlorine",
+        "elementSymbol": "Cl",
+        "atomicNumber": 17,
+        "classification": "Halogens",
+        "atomicMass": 35.453,
+        "density": 0.003214,
+        "meltingPoint": 172.17,
+        "boilingPoint": 238.55
+    },
+    {
+        "elementName": "Argon",
+        "elementSymbol": "Ar",
+        "atomicNumber": 18,
+        "classification": "Noble gases",
+        "atomicMass": 39.948,
+        "density": 0.001784,
+        "meltingPoint": 83.81,
+        "boilingPoint": 87.3
+    },
+    {
+        "elementName": "Potassium",
+        "elementSymbol": "K",
+        "atomicNumber": 19,
+        "classification": "Alkali metals",
+        "atomicMass": 39.0983,
+        "density": 0.856,
+        "meltingPoint": 336.53,
+        "boilingPoint": 1031.95
+    },
+    {
+        "elementName": "Calcium",
+        "elementSymbol": "Ca",
+        "atomicNumber": 20,
+        "classification": "Alkaline earth metals",
+        "atomicMass": 40.078,
+        "density": 1.55,
+        "meltingPoint": 1115.15,
+        "boilingPoint": 1757.15
+    },
+    {
+        "elementName": "Scandium",
+        "elementSymbol": "Sc",
+        "atomicNumber": 21,
+        "classification": "Transition metals",
+        "atomicMass": 44.9559,
+        "density": 2.99,
+        "meltingPoint": 1814.15,
+        "boilingPoint": 3103.15
+    },
+    {
+        "elementName": "Titanium",
+        "elementSymbol": "Ti",
+        "atomicNumber": 22,
+        "classification": "Transition metals",
+        "atomicMass": 47.867,
+        "density": 4.54,
+        "meltingPoint": 1933.15,
+        "boilingPoint": 3560.15
+    },
+    {
+        "elementName": "Vanadium",
+        "elementSymbol": "V",
+        "atomicNumber": 23,
+        "classification": "Transition metals",
+        "atomicMass": 50.9415,
+        "density": 6.11,
+        "meltingPoint": 2183.15,
+        "boilingPoint": 3680.15
+    },
+    {
+        "elementName": "Chromium",
+        "elementSymbol": "Cr",
+        "atomicNumber": 24,
+        "classification": "Transition metals",
+        "atomicMass": 51.9961,
+        "density": 7.19,
+        "meltingPoint": 2180.15,
+        "boilingPoint": 2945.15
+    },
+    {
+        "elementName": "Manganese",
+        "elementSymbol": "Mn",
+        "atomicNumber": 25,
+        "classification": "Transition metals",
+        "atomicMass": 54.938,
+        "density": 7.21,
+        "meltingPoint": 1518.15,
+        "boilingPoint": 2334.15
+    },
+    {
+        "elementName": "Iron",
+        "elementSymbol": "Fe",
+        "atomicNumber": 26,
+        "classification": "Transition metals",
+        "atomicMass": 55.845,
+        "density": 7.874,
+        "meltingPoint": 1812.15,
+        "boilingPoint": 3135.15
+    },
+    {
+        "elementName": "Cobalt",
+        "elementSymbol": "Co",
+        "atomicNumber": 27,
+        "classification": "Transition metals",
+        "atomicMass": 58.9331,
+        "density": 8.9,
+        "meltingPoint": 1766.15,
+        "boilingPoint": 3143.15
+    },
+    {
+        "elementName": "Nickel",
+        "elementSymbol": "Ni",
+        "atomicNumber": 28,
+        "classification": "Transition metals",
+        "atomicMass": 58.6934,
+        "density": 8.902,
+        "meltingPoint": 1728.15,
+        "boilingPoint": 3188.15
+    },
+    {
+        "elementName": "Copper",
+        "elementSymbol": "Cu",
+        "atomicNumber": 29,
+        "classification": "Transition metals",
+        "atomicMass": 63.546,
+        "density": 8.92,
+        "meltingPoint": 1357.77,
+        "boilingPoint": 2835.15
+    },
+    {
+        "elementName": "Zinc",
+        "elementSymbol": "Zn",
+        "atomicNumber": 30,
+        "classification": "Transition metals",
+        "atomicMass": 65.38,
+        "density": 7.133,
+        "meltingPoint": 692.65,
+        "boilingPoint": 1179.15
+    },
+    {
+        "elementName": "Gallium",
+        "elementSymbol": "Ga",
+        "atomicNumber": 31,
+        "classification": "Post-transition metals",
+        "atomicMass": 69.723,
+        "density": 5.91,
+        "meltingPoint": 302.95,
+        "boilingPoint": 2476.15
+    },
+    {
+        "elementName": "Germanium",
+        "elementSymbol": "Ge",
+        "atomicNumber": 32,
+        "classification": "Metalloids",
+        "atomicMass": 72.64,
+        "density": 5.323,
+        "meltingPoint": 1210.65,
+        "boilingPoint": 3106.15
+    },
+    {
+        "elementName": "Arsenic",
+        "elementSymbol": "As",
+        "atomicNumber": 33,
+        "classification": "Metalloids",
+        "atomicMass": 74.9216,
+        "density": 5.72,
+        "boilingPoint": 886.15
+    },
+    {
+        "elementName": "Selenium",
+        "elementSymbol": "Se",
+        "atomicNumber": 34,
+        "classification": "Other nonmetals",
+        "atomicMass": 78.96,
+        "density": 4.79,
+        "meltingPoint": 490.15,
+        "boilingPoint": 957.95
+    },
+    {
+        "elementName": "Bromine",
+        "elementSymbol": "Br",
+        "atomicNumber": 35,
+        "classification": "Halogens",
+        "atomicMass": 79.904,
+        "density": 3.14,
+        "meltingPoint": 265.9,
+        "boilingPoint": 331.95
+    },
+    {
+        "elementName": "Krypton",
+        "elementSymbol": "Kr",
+        "atomicNumber": 36,
+        "classification": "Noble gases",
+        "atomicMass": 83.798,
+        "density": 0.003749,
+        "meltingPoint": 115.78,
+        "boilingPoint": 119.75
+    },
+    {
+        "elementName": "Rubidium",
+        "elementSymbol": "Rb",
+        "atomicNumber": 37,
+        "classification": "Alkali metals",
+        "atomicMass": 85.467,
+        "density": 1.53,
+        "meltingPoint": 312.47,
+        "boilingPoint": 960.35
+    },
+    {
+        "elementName": "Strontium",
+        "elementSymbol": "Sr",
+        "atomicNumber": 38,
+        "classification": "Alkaline earth metals",
+        "atomicMass": 87.62,
+        "density": 2.54,
+        "meltingPoint": 1050.15,
+        "boilingPoint": 1655.15
+    },
+    {
+        "elementName": "Yttrium",
+        "elementSymbol": "Y",
+        "atomicNumber": 39,
+        "classification": "Transition metals",
+        "atomicMass": 88.905,
+        "density": 4.47,
+        "meltingPoint": 1799.15,
+        "boilingPoint": 3611.15
+    },
+    {
+        "elementName": "Zirconium",
+        "elementSymbol": "Zr",
+        "atomicNumber": 40,
+        "classification": "Transition metals",
+        "atomicMass": 91.224,
+        "density": 6.51,
+        "meltingPoint": 2128.15,
+        "boilingPoint": 4682.15
+    },
+    {
+        "elementName": "Niobium",
+        "elementSymbol": "Nb",
+        "atomicNumber": 41,
+        "classification": "Transition metals",
+        "atomicMass": 92.906,
+        "density": 8.58,
+        "meltingPoint": 2750.15,
+        "boilingPoint": 5200.15
+    },
+    {
+        "elementName": "Molybdenum",
+        "elementSymbol": "Mo",
+        "atomicNumber": 42,
+        "classification": "Transition metals",
+        "atomicMass": 95.94,
+        "density": 10.22,
+        "meltingPoint": 2896.15,
+        "boilingPoint": 4912.15
+    },
+    {
+        "elementName": "Technetium",
+        "elementSymbol": "Tc",
+        "atomicNumber": 43,
+        "classification": "Transition metals",
+        "atomicMass": 98.906,
+        "density": 11.49,
+        "meltingPoint": 2430.15,
+        "boilingPoint": 4538.15
+    },
+    {
+        "elementName": "Ruthenium",
+        "elementSymbol": "Ru",
+        "atomicNumber": 44,
+        "classification": "Transition metals",
+        "atomicMass": 101.07,
+        "density": 12.41,
+        "meltingPoint": 2607.15,
+        "boilingPoint": 4350.15
+    },
+    {
+        "elementName": "Rhodiium",
+        "elementSymbol": "Rh",
+        "atomicNumber": 45,
+        "classification": "Transition metals",
+        "atomicMass": 102.905,
+        "density": 12.41,
+        "meltingPoint": 2237.15,
+        "boilingPoint": 4000.15
+    },
+    {
+        "elementName": "Palladium",
+        "elementSymbol": "Pd",
+        "atomicNumber": 46,
+        "classification": "Transition metals",
+        "atomicMass": 106.42,
+        "density": 12.02,
+        "meltingPoint": 1828.15,
+        "boilingPoint": 3236.15
+    },
+    {
+        "elementName": "Silver",
+        "elementSymbol": "Ag",
+        "atomicNumber": 47,
+        "classification": "Transition metals",
+        "atomicMass": 107.868,
+        "density": 10.49,
+        "meltingPoint": 1234.95,
+        "boilingPoint": 2435.15
+    },
+    {
+        "elementName": "Cadmium",
+        "elementSymbol": "Cd",
+        "atomicNumber": 48,
+        "classification": "Transition metals",
+        "atomicMass": 112.411,
+        "density": 8.64,
+        "meltingPoint": 592.25,
+        "boilingPoint": 1039.95
+    },
+    {
+        "elementName": "Indium",
+        "elementSymbol": "In",
+        "atomicNumber": 49,
+        "classification": "Post-transition metals",
+        "atomicMass": 114.818,
+        "density": 7.31,
+        "meltingPoint": 429.75,
+        "boilingPoint": 2345.15
+    },
+    {
+        "elementName": "Tin",
+        "elementSymbol": "Sn",
+        "atomicNumber": 50,
+        "classification": "Post-transition metals",
+        "atomicMass": 118.71,
+        "density": 7.29,
+        "meltingPoint": 505.08,
+        "boilingPoint": 2875.15
+    },
+    {
+        "elementName": "Antimony",
+        "elementSymbol": "Sb",
+        "atomicNumber": 51,
+        "classification": "Metalloids",
+        "atomicMass": 121.76,
+        "density": 6.69,
+        "meltingPoint": 903.9,
+        "boilingPoint": 1860.15
+    },
+    {
+        "elementName": "Tellurium",
+        "elementSymbol": "Te",
+        "atomicNumber": 52,
+        "classification": "Metalloids",
+        "atomicMass": 127.6,
+        "density": 6.25,
+        "meltingPoint": 722.7,
+        "boilingPoint": 1260.95
+    },
+    {
+        "elementName": "Iodine",
+        "elementSymbol": "I",
+        "atomicNumber": 53,
+        "classification": "Halogens",
+        "atomicMass": 126.904,
+        "density": 4.94,
+        "meltingPoint": 386.7,
+        "boilingPoint": 457.5
+    },
+    {
+        "elementName": "Xenon",
+        "elementSymbol": "Xe",
+        "atomicNumber": 54,
+        "classification": "Noble gases",
+        "atomicMass": 131.293,
+        "density": 0.005894,
+        "meltingPoint": 161.35,
+        "boilingPoint": 165.05
+    },
+    {
+        "elementName": "Caesium",
+        "elementSymbol": "Cs",
+        "atomicNumber": 55,
+        "classification": "Alkali metals",
+        "atomicMass": 132.905,
+        "density": 1.9,
+        "meltingPoint": 301.6,
+        "boilingPoint": 943.95
+    },
+    {
+        "elementName": "Barium",
+        "elementSymbol": "Ba",
+        "atomicNumber": 56,
+        "classification": "Alkaline earth metals",
+        "atomicMass": 137.327,
+        "density": 3.5,
+        "meltingPoint": 1000.15,
+        "boilingPoint": 2170.15
+    },
+    {
+        "elementName": "Lanthanum",
+        "elementSymbol": "La",
+        "atomicNumber": 57,
+        "classification": "Lanthanoids",
+        "atomicMass": 138.905,
+        "density": 6.16,
+        "meltingPoint": 1193.15,
+        "boilingPoint": 3737.15
+    },
+    {
+        "elementName": "Cerium",
+        "elementSymbol": "Ce",
+        "atomicNumber": 58,
+        "classification": "Lanthanoids",
+        "atomicMass": 140.116,
+        "density": 6.77,
+        "meltingPoint": 1068.15,
+        "boilingPoint": 3716.15
+    },
+    {
+        "elementName": "Praseodymium",
+        "elementSymbol": "Pr",
+        "atomicNumber": 59,
+        "classification": "Lanthanoids",
+        "atomicMass": 140.904,
+        "density": 6.773,
+        "meltingPoint": 1204.15,
+        "boilingPoint": 3785.15
+    },
+    {
+        "elementName": "Neodymium",
+        "elementSymbol": "Nd",
+        "atomicNumber": 60,
+        "classification": "Lanthanoids",
+        "atomicMass": 144.242,
+        "density": 7.0,
+        "meltingPoint": 1283.15,
+        "boilingPoint": 3347.15
+    },
+    {
+        "elementName": "Promethium",
+        "elementSymbol": "Pm",
+        "atomicNumber": 61,
+        "classification": "Lanthanoids",
+        "atomicMass": 144.912,
+        "density": 7.2,
+        "meltingPoint": 1440.15,
+        "boilingPoint": 3273.15
+    },
+    {
+        "elementName": "Samarium",
+        "elementSymbol": "Sm",
+        "atomicNumber": 62,
+        "classification": "Lanthanoids",
+        "atomicMass": 150.36,
+        "density": 7.54,
+        "meltingPoint": 1345.15,
+        "boilingPoint": 2067.15
+    },
+    {
+        "elementName": "Europium",
+        "elementSymbol": "Eu",
+        "atomicNumber": 63,
+        "classification": "Lanthanoids",
+        "atomicMass": 151.964,
+        "density": 5.25,
+        "meltingPoint": 1095.15,
+        "boilingPoint": 1870.15
+    },
+    {
+        "elementName": "Gadolinium",
+        "elementSymbol": "Gd",
+        "atomicNumber": 64,
+        "classification": "Lanthanoids",
+        "atomicMass": 157.25,
+        "density": 7.89,
+        "meltingPoint": 1584.15,
+        "boilingPoint": 3545.15
+    },
+    {
+        "elementName": "Terbium",
+        "elementSymbol": "Tb",
+        "atomicNumber": 65,
+        "classification": "Lanthanoids",
+        "atomicMass": 158.925,
+        "density": 8.25,
+        "meltingPoint": 1633.15,
+        "boilingPoint": 3500.15
+    },
+    {
+        "elementName": "Dysprosium",
+        "elementSymbol": "Dy",
+        "atomicNumber": 66,
+        "classification": "Lanthanoids",
+        "atomicMass": 162.5,
+        "density": 8.56,
+        "meltingPoint": 1682.15,
+        "boilingPoint": 2840.15
+    },
+    {
+        "elementName": "Holmium",
+        "elementSymbol": "Ho",
+        "atomicNumber": 67,
+        "classification": "Lanthanoids",
+        "atomicMass": 164.93,
+        "density": 8.78,
+        "meltingPoint": 1743.15,
+        "boilingPoint": 2968.15
+    },
+    {
+        "elementName": "Erbium",
+        "elementSymbol": "Er",
+        "atomicNumber": 68,
+        "classification": "Lanthanoids",
+        "atomicMass": 167.259,
+        "density": 9.05,
+        "meltingPoint": 1802.15,
+        "boilingPoint": 3140.15
+    },
+    {
+        "elementName": "Thulium",
+        "elementSymbol": "Tm",
+        "atomicNumber": 69,
+        "classification": "Lanthanoids",
+        "atomicMass": 168.934,
+        "density": 9.32,
+        "meltingPoint": 1818.15,
+        "boilingPoint": 2220.15
+    },
+    {
+        "elementName": "Ytterbium",
+        "elementSymbol": "Yb",
+        "atomicNumber": 70,
+        "classification": "Lanthanoids",
+        "atomicMass": 173.04,
+        "density": 6.97,
+        "meltingPoint": 1097.15,
+        "boilingPoint": 1466.15
+    },
+    {
+        "elementName": "Lutetium",
+        "elementSymbol": "Lu",
+        "atomicNumber": 71,
+        "classification": "Lanthanoids",
+        "atomicMass": 174.967,
+        "density": 9.84,
+        "meltingPoint": 1936.15,
+        "boilingPoint": 3668.15
+    },
+    {
+        "elementName": "Hafnium",
+        "elementSymbol": "Hf",
+        "atomicNumber": 72,
+        "classification": "Transition metals",
+        "atomicMass": 178.49,
+        "density": 13.31,
+        "meltingPoint": 2506.15,
+        "boilingPoint": 4875.15
+    },
+    {
+        "elementName": "Tantalum",
+        "elementSymbol": "Ta",
+        "atomicNumber": 73,
+        "classification": "Transition metals",
+        "atomicMass": 180.947,
+        "density": 16.68,
+        "meltingPoint": 3290.15,
+        "boilingPoint": 5731.15
+    },
+    {
+        "elementName": "Tugsten",
+        "elementSymbol": "W",
+        "atomicNumber": 74,
+        "classification": "Transition metals",
+        "atomicMass": 183.84,
+        "density": 19.26,
+        "meltingPoint": 3695.15,
+        "boilingPoint": 5828.15
+    },
+    {
+        "elementName": "Rhenium",
+        "elementSymbol": "Re",
+        "atomicNumber": 75,
+        "classification": "Transition metals",
+        "atomicMass": 186.207,
+        "density": 21.03,
+        "meltingPoint": 3453.15,
+        "boilingPoint": 5900.15
+    },
+    {
+        "elementName": "Osmium",
+        "elementSymbol": "Os",
+        "atomicNumber": 76,
+        "classification": "Transition metals",
+        "atomicMass": 190.23,
+        "density": 22.587,
+        "meltingPoint": 3306.15,
+        "boilingPoint": 5870.15
+    },
+    {
+        "elementName": "Iridium",
+        "elementSymbol": "Ir",
+        "atomicNumber": 77,
+        "classification": "Transition metals",
+        "atomicMass": 192.217,
+        "density": 22.562,
+        "meltingPoint": 2683.15,
+        "boilingPoint": 4403.15
+    },
+    {
+        "elementName": "Platinum",
+        "elementSymbol": "Pl",
+        "atomicNumber": 78,
+        "classification": "Transition metals",
+        "atomicMass": 195.084,
+        "density": 21.45,
+        "meltingPoint": 2041.15,
+        "boilingPoint": 4098.15
+    },
+    {
+        "elementName": "Gold",
+        "elementSymbol": "Au",
+        "atomicNumber": 79,
+        "classification": "Transition metals",
+        "atomicMass": 196.966,
+        "density": 19.3,
+        "meltingPoint": 1337.15,
+        "boilingPoint": 2973.15
+    },
+    {
+        "elementName": "Mercury",
+        "elementSymbol": "Hg",
+        "atomicNumber": 80,
+        "classification": "Transition metals",
+        "atomicMass": 200.59,
+        "density": 13.55,
+        "meltingPoint": 234.15,
+        "boilingPoint": 629.85
+    },
+    {
+        "elementName": "Thalium",
+        "elementSymbol": "Tl",
+        "atomicNumber": 81,
+        "classification": "Post-transition metals",
+        "atomicMass": 204.383,
+        "density": 11.85,
+        "meltingPoint": 576.75,
+        "boilingPoint": 1746.15
+    },
+    {
+        "elementName": "Lead",
+        "elementSymbol": "Pb",
+        "atomicNumber": 82,
+        "classification": "Post-transition metals",
+        "atomicMass": 207.2,
+        "density": 11.34,
+        "meltingPoint": 600.55,
+        "boilingPoint": 2022.15
+    },
+    {
+        "elementName": "Bismuth",
+        "elementSymbol": "Bi",
+        "atomicNumber": 83,
+        "classification": "Post-transition metals",
+        "atomicMass": 208.9804,
+        "density": 9.8,
+        "meltingPoint": 544.55,
+        "boilingPoint": 1833.15
+    },
+    {
+        "elementName": "Polonium",
+        "elementSymbol": "Po",
+        "atomicNumber": 84,
+        "classification": "Metalloids",
+        "atomicMass": 208.9824,
+        "density": 9.2,
+        "meltingPoint": 527.15,
+        "boilingPoint": 1235.15
+    },
+    {
+        "elementName": "Astatine",
+        "elementSymbol": "At",
+        "atomicNumber": 85,
+        "classification": "Halogens",
+        "atomicMass": 209.9871,
+        "density": 6.4,
+        "meltingPoint": 503.15,
+        "boilingPoint": 609.95
+    },
+    {
+        "elementName": "Radon",
+        "elementSymbol": "Rn",
+        "atomicNumber": 86,
+        "classification": "Noble gases",
+        "atomicMass": 222.0176,
+        "density": 0.0098,
+        "meltingPoint": 202.0,
+        "boilingPoint": 211.45
+    },
+    {
+        "elementName": "Francium",
+        "elementSymbol": "Fr",
+        "atomicNumber": 87,
+        "classification": "Alkali metals",
+        "atomicMass": 223.0197,
+        "density": 2.48,
+        "meltingPoint": 281.15,
+        "boilingPoint": 949.95
+    },
+    {
+        "elementName": "Radium",
+        "elementSymbol": "Ra",
+        "atomicNumber": 88,
+        "classification": "Alkaline earth metals",
+        "atomicMass": 226.0254,
+        "density": 5.5,
+        "meltingPoint": 969.15,
+        "boilingPoint": 2010.15
+    },
+    {
+        "elementName": "Actinium",
+        "elementSymbol": "Ac",
+        "atomicNumber": 89,
+        "classification": "Actinoids",
+        "atomicMass": 227.0278,
+        "density": 10.07,
+        "meltingPoint": 1323.15,
+        "boilingPoint": 3470.15
+    },
+    {
+        "elementName": "Thorium",
+        "elementSymbol": "Th",
+        "atomicNumber": 90,
+        "classification": "Actinoids",
+        "atomicMass": 232.038,
+        "density": 11.72,
+        "meltingPoint": 2023.15,
+        "boilingPoint": 5060.15
+    },
+    {
+        "elementName": "Protactinium",
+        "elementSymbol": "Pa",
+        "atomicNumber": 91,
+        "classification": "Actinoids",
+        "atomicMass": 231.0358,
+        "density": 15.37,
+        "meltingPoint": 2113.15,
+        "boilingPoint": 4300.15
+    },
+    {
+        "elementName": "Uranium",
+        "elementSymbol": "U",
+        "atomicNumber": 92,
+        "classification": "Actinoids",
+        "atomicMass": 238.0289,
+        "density": 19.05,
+        "meltingPoint": 1405.55,
+        "boilingPoint": 4404.15
+    },
+    {
+        "elementName": "Neptunium",
+        "elementSymbol": "Np",
+        "atomicNumber": 93,
+        "classification": "Actinoids",
+        "atomicMass": 237.0482,
+        "density": 20.48,
+        "meltingPoint": 917.15,
+        "boilingPoint": 4175.15
+    },
+    {
+        "elementName": "Plutonium",
+        "elementSymbol": "Pu",
+        "atomicNumber": 94,
+        "classification": "Actinoids",
+        "atomicMass": 244.0642,
+        "density": 19.74,
+        "meltingPoint": 914.15,
+        "boilingPoint": 3505.15
+    },
+    {
+        "elementName": "Americium",
+        "elementSymbol": "Am",
+        "atomicNumber": 95,
+        "classification": "Actinoids",
+        "atomicMass": 243.0614,
+        "density": 13.67,
+        "meltingPoint": 1449.15,
+        "boilingPoint": 2880.15
+    },
+    {
+        "elementName": "Curium",
+        "elementSymbol": "Cm",
+        "atomicNumber": 96,
+        "classification": "Actinoids",
+        "atomicMass": 247.0703,
+        "density": 13.51,
+        "meltingPoint": 1618.15,
+        "boilingPoint": 3383.15
+    },
+    {
+        "elementName": "Berkelium",
+        "elementSymbol": "Bk",
+        "atomicNumber": 97,
+        "classification": "Actinoids",
+        "atomicMass": 247.0703,
+        "density": 13.25,
+        "meltingPoint": 1259.15,
+        "boilingPoint": 2900.15
+    },
+    {
+        "elementName": "Californium",
+        "elementSymbol": "Cf",
+        "atomicNumber": 98,
+        "classification": "Actinoids",
+        "atomicMass": 251.0796,
+        "density": 15.1,
+        "meltingPoint": 1173.15,
+        "boilingPoint": 1745.15
+    },
+    {
+        "elementName": "Einsteinium",
+        "elementSymbol": "Es",
+        "atomicNumber": 99,
+        "classification": "Actinoids",
+        "atomicMass": 252.0829,
+        "density": 13.5,
+        "meltingPoint": 1133.15
+    },
+    {
+        "elementName": "Ferminum",
+        "elementSymbol": "Fm",
+        "atomicNumber": 100,
+        "classification": "Actinoids",
+        "atomicMass": 257.0951,
+        "density": 19.05,
+        "meltingPoint": 1798.15
+    },
+    {
+        "elementName": "Mendelevium",
+        "elementSymbol": "Md",
+        "atomicNumber": 101,
+        "classification": "Actinoids",
+        "atomicMass": 258.0951,
+        "meltingPoint": 1098.15
+    },
+    {
+        "elementName": "Nobelium",
+        "elementSymbol": "No",
+        "atomicNumber": 102,
+        "classification": "Actinoids",
+        "atomicMass": 259.1009,
+        "meltingPoint": 1098.15
+    },
+    {
+        "elementName": "Lawrencium",
+        "elementSymbol": "Lr",
+        "atomicNumber": 103,
+        "classification": "Actinoids",
+        "atomicMass": 266.1193,
+        "meltingPoint": 1898.15
+    },
+    {
+        "elementName": "Rutherfordium",
+        "elementSymbol": "Rf",
+        "atomicNumber": 104,
+        "classification": "Transition metals",
+        "atomicMass": 261.1087,
+        "density": 23.0,
+        "meltingPoint": 2373.15,
+        "boilingPoint": 5773.15
+    },
+    {
+        "elementName": "Dubnium",
+        "elementSymbol": "Db",
+        "atomicNumber": 105,
+        "classification": "Transition metals",
+        "atomicMass": 262.1138,
+        "density": 29.0
+    },
+    {
+        "elementName": "Seaborgium",
+        "elementSymbol": "Sg",
+        "atomicNumber": 106,
+        "classification": "Transition metals",
+        "atomicMass": 263.1182,
+        "density": 35.0
+    },
+    {
+        "elementName": "Bohrium",
+        "elementSymbol": "Bh",
+        "atomicNumber": 107,
+        "classification": "Transition metals",
+        "atomicMass": 262.1229,
+        "density": 37.0
+    },
+    {
+        "elementName": "Hassium",
+        "elementSymbol": "Ha",
+        "atomicNumber": 108,
+        "classification": "Transition metals",
+        "atomicMass": 269.0
+    },
+    {
+        "elementName": "Meitnerium",
+        "elementSymbol": "Mt",
+        "atomicNumber": 109,
+        "classification": "Transition metals",
+        "atomicMass": 278.0,
+        "density": 37.4
+    },
+    {
+        "elementName": "Darmstadtium",
+        "elementSymbol": "Ds",
+        "atomicNumber": 110,
+        "classification": "Transition metals",
+        "atomicMass": 281.162,
+        "density": 34.8
+    },
+    {
+        "elementName": "Roentgenium",
+        "elementSymbol": "Rg",
+        "atomicNumber": 111,
+        "classification": "Transition metals",
+        "atomicMass": 281.1684
+    },
+    {
+        "elementName": "Copernicium",
+        "elementSymbol": "Cn",
+        "atomicNumber": 112,
+        "classification": "Transition metals",
+        "atomicMass": 285.1744,
+        "density": 20.0
+    },
+    {
+        "elementName": "Nihonium",
+        "elementSymbol": "Nh",
+        "atomicNumber": 113,
+        "classification": "Post-transition metals",
+        "atomicMass": 286.181,
+        "density": 16.0,
+        "meltingPoint": 698.15,
+        "boilingPoint": 1428.15
+    },
+    {
+        "elementName": "Flerovium",
+        "elementSymbol": "Fl",
+        "atomicNumber": 114,
+        "classification": "Post-transition metals",
+        "atomicMass": 287.1904,
+        "density": 14.0,
+        "meltingPoint": 341.15,
+        "boilingPoint": 419.15
+    },
+    {
+        "elementName": "Moscovium",
+        "elementSymbol": "Mc",
+        "atomicNumber": 115,
+        "classification": "Post-transition metals",
+        "atomicMass": 288.1943,
+        "density": 13.5
+    },
+    {
+        "elementName": "Livermorium",
+        "elementSymbol": "Lv",
+        "atomicNumber": 116,
+        "classification": "Post-transition metals",
+        "atomicMass": 291.2045
+    },
+    {
+        "elementName": "Tennessine",
+        "elementSymbol": "Ts",
+        "atomicNumber": 117,
+        "classification": "Halogens",
+        "atomicMass": 294.2104
+    },
+    {
+        "elementName": "Oganesson",
+        "elementSymbol": "Og",
+        "atomicNumber": 118,
+        "classification": "Noble gases",
+        "atomicMass": 294.2139,
+        "density": 5.0,
+        "boilingPoint": 368.15
+    }
+]
