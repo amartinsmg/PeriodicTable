@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Periodic Table</title>
-  <link rel="shortcut icon" href="../public/favicon.ico" type="image/x-icon">k
+  <link rel="shortcut icon" href="../public/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -34,9 +34,9 @@
           <h2 class="info-element-text-heading"> <%= elementName %> </h2>
           <div> <strong>Atomic mass:</strong><%= atomicMass %> </div>
           <div> <strong>Classification:</strong> <%= classification %> </div>
-          <div> <strong>Density:</strong> <%= density ?? 'N/A' %> g/mol </div>
-          <div> <strong>Melting point:</strong> <%= meltingPoint ?? 'N/A' %> K </div>
-          <div> <strong>Boiling point:</strong> <%= boilingPoint ?? 'N/A' %> K </div>
+          <div> <strong>Density:</strong> <%= density ? density + " g/mol" : "N/A" %> </div>
+          <div> <strong>Melting point:</strong> <%= meltingPoint ? meltingPoint + " K" : "N/A" %> </div>
+          <div> <strong>Boiling point:</strong> <%= boilingPoint ? boilingPoint + " K" : "N/A" %> </div>
         </div>
       </div>
       <% } %>
