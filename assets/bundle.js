@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelectorAll(".container-element");let t=document.querySelector("#H-info");e.forEach((e=>{e.addEventListener("click",(()=>{const n=document.querySelector(`#${e.id}-info`);t.classList.add("non-display"),n.classList.remove("non-display"),t=n}))}))})();
