@@ -3,6 +3,8 @@
 #periodic-table
   padding: 0 $periodic-table-margin-x
   overflow: auto
+  width: min-content
+  margin: 0 auto
   &-main
     display: grid
     grid-template-columns: repeat(18, 1fr)
@@ -12,7 +14,7 @@
   &-lanthanoids,
   &-actinoids
     display: grid
-    margin: 0.6rem 0 0 calc(2 * $element-width)
+    margin: 0.6rem 0 0 2 * $element-side + 0.4rem
     grid-template-columns: repeat(16, 1fr)
     grid-template-rows: 1fr
     gap: 0.2rem
@@ -25,10 +27,11 @@
   grid-column: 3 / 13
 
 .container-element
-  min-width: $element-min-size
-  height: $element-min-size
+  width: $element-side
+  height: $element-side
   padding: 0.4rem
   cursor: pointer
+  z-index: 1
   border: solid 0.2rem
   &-symbol
     font-size: 1.5rem

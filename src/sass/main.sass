@@ -6,8 +6,10 @@
   box-sizing: border-box
   margin: 0
   padding: 0
+  text-decoration: none
 
 html, body
+  min-height: 100vh
   background: $secondary-color
   color: $primary-color
   font-family: sans-serif
@@ -21,3 +23,17 @@ html, body
   padding: 1rem 0 0 $periodic-table-margin-x
   &-heading
     font-size: 4rem
+
+#page-footer
+  width: 100%
+  text-align: center
+  padding: 2rem $periodic-table-margin-x
+  a:link
+    color: inherit
+  a:visited
+    color: inherit
+  a:hover
+    color: #afafaf
+  @media screen and (min-width: 1316px) and (min-height: 860px)
+    position: fixed
+    bottom: 0

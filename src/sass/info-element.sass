@@ -1,17 +1,18 @@
 @import _variables
 
 #container-info-element
+  display: flex
+  flex-direction: row 
+  justify-content: center
   @media screen and (min-width: 1316px)
     position: absolute
     top: $page-header-height
-    left: calc(2.5 * $element-width + $periodic-table-margin-x)
+    right: 5 * $element-side
+    width: calc(100vw - 5 * $element-side)
 
 .info-element
   font-size: 1.2rem
   padding: 1.5rem $periodic-table-margin-x
-  display: flex
-  flex-direction: column
-  align-content: center
   &-text
     padding: 0.3rem
     letter-spacing: 0.03rem
@@ -19,7 +20,7 @@
     &-heading
       padding: 1rem 0
   &-box
-    height: calc(2 * $element-width)
+    height: 2 * $element-side
     border: 0.2rem solid $primary-color
     border-radius: 1rem
     aspect-ratio: 1 / 1
@@ -32,11 +33,12 @@
       font-weight: bold
       text-align: center
   @media screen and (min-width: 768px)
-    padding: 1rem 4.8rem
+    padding: 3.6rem 4.8rem
+    display: flex
     flex-direction: row
     justify-content: center
     gap: 2rem
-    height: 2.5 * $element-min-size
+    height: 2.5 * $element-side
     &-box
       margin: 0
     &-text
