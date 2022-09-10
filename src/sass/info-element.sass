@@ -1,0 +1,45 @@
+@import _variables
+
+#container-info-element
+  @media screen and (min-width: 1316px)
+    position: absolute
+    top: $page-header-height
+    left: calc(2.5 * $element-width + $periodic-table-margin-x)
+
+.info-element
+  font-size: 1.2rem
+  padding: 1.5rem $periodic-table-margin-x
+  display: flex
+  flex-direction: column
+  align-content: center
+  &-text
+    padding: 0.3rem
+    letter-spacing: 0.03rem
+    text-align: center
+    &-heading
+      padding: 1rem 0
+  &-box
+    height: calc(2 * $element-width)
+    border: 0.2rem solid $primary-color
+    border-radius: 1rem
+    aspect-ratio: 1 / 1
+    margin: auto
+    padding: 0.5rem
+    &-atomic-number
+      font-size: 1.5em
+    &-symbol
+      font-size: 4.8em
+      font-weight: bold
+      text-align: center
+  @media screen and (min-width: 768px)
+    padding: 1rem 4.8rem
+    flex-direction: row
+    justify-content: center
+    gap: 2rem
+    height: 2.5 * $element-min-size
+    &-box
+      margin: 0
+    &-text
+      text-align: left
+      &-heading
+        padding-top: 0

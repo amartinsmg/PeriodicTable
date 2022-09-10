@@ -1,0 +1,23 @@
+@import _variables
+@import info-element
+@import table
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html, body
+  background: $secondary-color
+  color: $primary-color
+  font-family: sans-serif
+  font-size: 13px
+
+.non-display
+  display: none !important
+
+#page-header
+  min-height: $page-header-height
+  padding: 1rem 0 0 $periodic-table-margin-x
+  &-heading
+    font-size: 4rem

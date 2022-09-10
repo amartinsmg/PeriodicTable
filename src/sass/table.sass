@@ -1,0 +1,105 @@
+@import _variables
+
+#periodic-table
+  padding: 0 $periodic-table-margin-x
+  overflow: auto
+  &-main
+    display: grid
+    grid-template-columns: repeat(18, 1fr)
+    grid-template-rows: repeat(7, 1fr)
+    gap: 0.2rem
+
+  &-lanthanoids,
+  &-actinoids
+    display: grid
+    margin: 0.6rem 0 0 calc(2 * $element-width)
+    grid-template-columns: repeat(16, 1fr)
+    grid-template-rows: 1fr
+    gap: 0.2rem
+
+#white-space-H
+  grid-column: 2 / 18
+
+#white-space-Be,
+#white-space-Mg
+  grid-column: 3 / 13
+
+.container-element
+  min-width: $element-min-size
+  height: $element-min-size
+  padding: 0.4rem
+  cursor: pointer
+  border: solid 0.2rem
+  &-symbol
+    font-size: 1.5rem
+    font-weight: bold
+    text-align: center
+  &-name
+    font-size: 0.7rem
+    text-align: center
+
+.other-nonmetals
+  border-color: $bg-color-1
+  &:hover
+    background: $bg-color-1
+    color: $color-2
+
+.noble-gases
+  border-color: $bg-color-2
+  &:hover
+    background: $bg-color-2
+    color: $color-1
+
+.alkali-metals
+  border-color: $bg-color-3
+  &:hover
+    background: $bg-color-3
+    color: $color-2
+
+.alkaline-earth-metals
+  border-color: $bg-color-4
+  &:hover
+    background: $bg-color-4
+    color: $color-2
+
+.metalloids
+  border-color: $bg-color-5
+  &:hover
+    background: $bg-color-5
+    color: $color-2
+
+.halogens
+  border-color: $bg-color-6
+  &:hover
+    background: $bg-color-6
+    color: $color-1
+
+.transition-metals
+  border-color: $bg-color-7
+  &:hover
+    background: $bg-color-7
+    color: $color-1
+
+.post-transition-metals
+  border-color: $bg-color-8
+  &:hover
+    background: $bg-color-8
+    color: $color-1
+
+.lanthanoids
+  border-color: $bg-color-9
+  &:hover
+    background: $bg-color-9
+    color: $color-1
+
+.actinoids
+  border-color: $bg-color-10
+  &:hover
+    background: $bg-color-10
+    color: $color-1
+
+#white-space-Ba,
+#white-space-Ra
+  display: flex
+  justify-content: center
+  align-items: center
