@@ -22,7 +22,7 @@
   <header id="page-header">
     <h1 id="page-header-heading">Periodic Table</h1>
   </header>
-  <main>
+  <main id="page-main">
     <div id="container-info-element">
       <% for( let { atomicNumber, atomicMass, elementName, elementSymbol, classification, density, meltingPoint, boilingPoint } of Elements ) { %>
       <div class="info-element <%= atomicNumber != 1 ? "non-display" : "" %>" id="<%= elementSymbol %>-info">
@@ -32,9 +32,9 @@
         </div>
         <div class="info-element-text">
           <h2 class="info-element-text-heading"> <%= elementName %> </h2>
-          <div> <strong>Atomic mass:</strong><%= atomicMass %> </div>
+          <div> <strong>Atomic mass:</strong> <%= atomicMass %> g/mol</div>
           <div> <strong>Classification:</strong> <%= classification %> </div>
-          <div> <strong>Density:</strong> <%= density ? density + " g/mol" : "N/A" %> </div>
+          <div> <strong>Density:</strong> <%= density ? density + " g/cm\u00b3" : "N/A" %> </div>
           <div> <strong>Melting point:</strong> <%= meltingPoint ? meltingPoint + " K" : "N/A" %> </div>
           <div> <strong>Boiling point:</strong> <%= boilingPoint ? boilingPoint + " K" : "N/A" %> </div>
         </div>
@@ -77,7 +77,7 @@
     </div>
   </main>
   <footer id="page-footer">
-    <p>Visit this project's <a href="https://github.com/amartinsmg/WebUnitConverter">repository</a>.<br>
+    <p>Visit this project's <a href="https://github.com/amartinsmg/WebPeriodicTable">repository</a>.<br>
       Made by <a href="https://amartinsmg.github.io">amartinsmg</a>.
       <a href="https://www.flaticon.com/free-icons/copper" title="copper icons"
       >Copper icons created by Smashicons - Flaticon</a>.
