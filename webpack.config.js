@@ -9,14 +9,13 @@ module.exports = {
   output: {
     filename: "assets/bundle.js",
     path: path.resolve(__dirname, "build"),
-    assetModuleFilename: 'assets/[hash][ext]',
+    assetModuleFilename: "assets/[hash][ext]",
   },
   mode: "production",
   devServer: {
     static: {
       directory: path.resolve(__dirname, "build"),
     },
-    host: "localhost",
     port: 8080,
     open: true,
   },
@@ -39,15 +38,11 @@ module.exports = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
-        type: "asset/resource",
-      },
     ],
   },
   resolve: {
-    extensions: [".js", ".scss", ".css"],
-  }, 
+    extensions: [".js", ".ejs", ".sass", ".css"],
+  },
   optimization: {
     minimizer: [new TerserPlugin(), new CssMinimizerWebpack()],
   },
