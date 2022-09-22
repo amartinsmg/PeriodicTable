@@ -1,4 +1,4 @@
-# WebPeriodicTable
+# PeriodicTable
 
 This is a personal project for a Web Periodic Table. It's made with Embedded JS, SASS, and JavaScript.
 
