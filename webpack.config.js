@@ -1,8 +1,12 @@
 const CssMinimizerWebpack = require("css-minimizer-webpack-plugin"),
   HtmlWebpackPlugin = require("html-webpack-plugin"),
+  { htmlWebpackPluginTemplateCustomizer } = require("template-ejs-loader"),
   MiniCssExtractPlugin = require("mini-css-extract-plugin"),
   path = require("path"),
-  TerserPlugin = require("terser-webpack-plugin");
+  TerserPlugin = require("terser-webpack-plugin"),
+  { readFileSync } = require("fs"),
+  JsonFile = readFileSync("data/periodic_table.json"),
+  Elements = JSON.parse(JsonFile);
 
 module.exports = {
   entry: "./src/script.js",
@@ -47,7 +51,13 @@ module.exports = {
     minimizer: [new TerserPlugin(), new CssMinimizerWebpack()],
   },
   plugins: [
-    new HtmlWebpackPlugin({ filename: "index.html" }),
+    new HtmlWebpackPlugin({
+      filename: "index.html",
+      template: htmlWebpackPluginTemplateCustomizer({
+        templatePath: "./src/index.ejs",
+        templateEjsLoaderOption: { data: { Elements } },
+      }),
+    }),
     new MiniCssExtractPlugin({
       filename: "assets/bundle.css",
     }),
