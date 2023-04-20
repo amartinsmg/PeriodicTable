@@ -1,13 +1,18 @@
 import "./sass/main.sass";
 
-const AtomicElementsDivs = document.querySelectorAll(".container-element");
-let CurrentDisplyedElemenet = document.querySelector("#H-info");
+const AtomicElementsDivs = document.querySelectorAll(".container-element"),
+  CurrentDisplayedElement = {
+    element: document.querySelector("#H-info"),
+    update(newElementId) {
+      const NewElement = document.querySelector(newElementId);
+      this.element.classList.add("non-display");
+      NewElement.classList.remove("non-display");
+      this.element = NewElement;
+    },
+  };
 
 AtomicElementsDivs.forEach((el) => {
   el.addEventListener("click", () => {
-    const ElementInfo = document.querySelector(`#${el.id}-info`);
-    CurrentDisplyedElemenet.classList.add("non-display");
-    ElementInfo.classList.remove("non-display");
-    CurrentDisplyedElemenet = ElementInfo;
+    CurrentDisplayedElement.update(`#${el.id}-info`);
   });
 });
