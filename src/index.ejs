@@ -11,10 +11,7 @@
 
 <body>
   <%
-  const { readFileSync } = require('fs'),
-    jsonFile = readFileSync("data/periodic_table.json"),
-    Elements = JSON.parse(jsonFile),
-    ElementsCopy = [...Elements], 
+  const ElementsCopy = [...Elements], 
     Lanthanoids = ElementsCopy.splice(56, 15),
     Actinoids = ElementsCopy.splice(73, 15),
     OtherElements = ElementsCopy;
