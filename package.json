@@ -1,7 +1,7 @@
 {
   "name": "web_periodic_table",
   "version": "1.0.0",
-  "main": "src/script.js",
+  "main": "src/main.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve"
