@@ -8,8 +8,7 @@
   <title>Periodic Table</title>
   <link rel="shortcut icon" href="../public/favicon.ico" type="image/x-icon">
   <!--
-    This code creates three new arrays from the original Elements array. These are
-      Lanthanoids, Actinoids, and MainGroupElements.
+    This code creates three new arrays from the original Elements array. These are Lanthanoids, Actinoids, and MainGroupElements.
   -->
   <%
     const ElementsCopy = [...Elements], 
@@ -25,9 +24,8 @@
   <main id="page-main">
     <div id="container-info-element">
         <!--
-          This for loop follows iterates through all the elements in the Elements array and
-            creates a div for each element and the information about it. The non-display class
-            is added to all divs except for the one representing hydrogen (atomic number 1).
+          This for loop follows iterates through all the elements in the Elements array and creates a div for each element and the information
+          about it. The non-display class is added to all divs except for the one representing hydrogen (atomic number 1).
         -->
       <% for( let { atomicNumber, atomicMass, elementName, elementSymbol, classification, density, meltingPoint, boilingPoint } of Elements ) { %>
       <div class="info-element <%= atomicNumber != 1 ? "non-display" : "" %>" id="<%= elementSymbol %>-info">
@@ -49,9 +47,8 @@
     <div id="periodic-table">
       <div class="container" id="periodic-table-main">
         <!--
-          This for loop creates divs for each element in the MainGroupElements array, and assigns them a
-            class based on their classification. It also adds divs with the class white-space for
-            certain elements, which create blank spaces in the periodic table to maintain its structure.
+          This for loop creates divs for each element in the MainGroupElements array, and assigns them a class based on their classification.
+          It also adds divs with the class white-space for certain elements, which create blank spaces in the periodic table to maintain its structure.
         -->
         <% for( let { atomicNumber, elementName, elementSymbol, classification } of MainGroupElements ) { %>
         <div id="<%= elementSymbol %>" class="container-element <%= classification.toLowerCase().replace(/\s/g, "-") %>">
@@ -67,8 +64,7 @@
         <% } %>
       </div>
       <!--
-        These for loops create divs for the Lanthanoids and Actinoids arrays, which are displayed
-        separately at the bottom of the periodic table.
+        These for loops create divs for the Lanthanoids and Actinoids arrays, which are displayed separately at the bottom of the periodic table.
       -->
       <div class="container" id="periodic-table-lanthanoids">
         <% for( let { atomicNumber, elementName, elementSymbol } of Lanthanoids ) { %>
