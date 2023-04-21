@@ -86,7 +86,7 @@ module.exports = {
   */
 
   resolve: {
-    extensions: [".ts", ".js", ".ejs", ".css"],
+    extensions: [".js", ".ejs", ".sass", ".scss", ".css"],
   },
 
   /**
