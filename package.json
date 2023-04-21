@@ -7,7 +7,7 @@
     "dev": "webpack serve"
   },
   "repository": "https://github.com/amartinsmg/WebPeriodicTable.git",
-  "author": "amartinsmg <andremindurimg@gmail.com>",
+  "author": "amartinsmg",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.19.0",
