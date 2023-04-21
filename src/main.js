@@ -4,12 +4,10 @@ import "./sass/main.sass";
 
 function main() {
   const AtomicElementsDivs = document.querySelectorAll(".container-element"),
-    /**
-    An object that keeps track of the currently displayed atomic element information and provides
-      a method to update it.
+  /**
+    An object that keeps track of the currently displayed atomic element information and provides a method to update it.
       @property element - The HTML element that currently displays the atomic element information.
-      @property update - A method that updates the currently displayed atomic element information
-        to the element with the provided ID.
+      @property update - A method that updates the currently displayed atomic element information to the element with the provided ID.
   */
     CurrentDisplayedElement = {
       element: document.querySelector("#H-info"),
@@ -22,8 +20,7 @@ function main() {
     };
 
   /**
-    Add a click event listener to each ".container-element" element to update
-      the displayed atomic element information.
+    Add a click event listener to each ".container-element" element to update the displayed atomic element information.
   */
 
   AtomicElementsDivs.forEach((el) => {
