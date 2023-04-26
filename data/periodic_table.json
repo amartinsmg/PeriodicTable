@@ -729,7 +729,7 @@
         "boilingPoint": 5731.15
     },
     {
-        "elementName": "Tugsten",
+        "elementName": "Tungsten",
         "elementSymbol": "W",
         "atomicNumber": 74,
         "classification": "Transition metals",
@@ -1056,7 +1056,7 @@
     },
     {
         "elementName": "Hassium",
-        "elementSymbol": "Ha",
+        "elementSymbol": "Hs",
         "atomicNumber": 108,
         "classification": "Transition metals",
         "atomicMass": 269.0
