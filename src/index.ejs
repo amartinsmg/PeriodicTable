@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Periodic Table</title>
-  <link rel="shortcut icon" href="../public/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
   <!--
-    This code creates three new arrays from the original Elements array. These are Lanthanoids, Actinoids, and MainGroupElements.
+    This code creates three new arrays from the original elements array. These are lanthanoids, actinoids, and mainGroupElements.
   -->
   <%
-    const ElementsCopy = [...Elements], 
-    Lanthanoids = ElementsCopy.splice(56, 15),
-    Actinoids = ElementsCopy.splice(73, 15),
-    MainGroupElements = ElementsCopy;
+    const elementsCopy = [...elements], 
+    lanthanoids = elementsCopy.splice(56, 15),
+    actinoids = elementsCopy.splice(73, 15),
+    mainGroupElements = elementsCopy;
   %>
 </head>
 <body>
@@ -24,10 +24,10 @@
   <main id="page-main">
     <div id="container-info-element">
         <!--
-          This for loop follows iterates through all the elements in the Elements array and creates a div for each element and the information
+          This for loop follows iterates through all the elements in the elements array and creates a div for each element and the information
           about it. The non-display class is added to all divs except for the one representing hydrogen (atomic number 1).
         -->
-      <% for( let { atomicNumber, atomicMass, elementName, elementSymbol, classification, density, meltingPoint, boilingPoint } of Elements ) { %>
+      <% for( let { atomicNumber, atomicMass, elementName, elementSymbol, classification, density, meltingPoint, boilingPoint } of elements ) { %>
       <div class="info-element <%= atomicNumber != 1 ? "non-display" : "" %>" id="<%= elementSymbol %>-info">
         <div class="info-element-box">
           <div class="info-element-box-atomic-number"><%= atomicNumber %> </div>
@@ -47,10 +47,10 @@
     <div id="periodic-table">
       <div class="container" id="periodic-table-main">
         <!--
-          This for loop creates divs for each element in the MainGroupElements array, and assigns them a class based on their classification.
+          This for loop creates divs for each element in the mainGroupElements array, and assigns them a class based on their classification.
           It also adds divs with the class white-space for certain elements, which create blank spaces in the periodic table to maintain its structure.
         -->
-        <% for( let { atomicNumber, elementName, elementSymbol, classification } of MainGroupElements ) { %>
+        <% for( let { atomicNumber, elementName, elementSymbol, classification } of mainGroupElements ) { %>
         <div id="<%= elementSymbol %>" class="container-element <%= classification.toLowerCase().replace(/\s/g, "-") %>">
           <div class="container-element-atomic-number"><%= atomicNumber %> </div>
           <div class="container-element-symbol"><%= elementSymbol %> </div>
@@ -67,7 +67,7 @@
         These for loops create divs for the Lanthanoids and Actinoids arrays, which are displayed separately at the bottom of the periodic table.
       -->
       <div class="container" id="periodic-table-lanthanoids">
-        <% for( let { atomicNumber, elementName, elementSymbol } of Lanthanoids ) { %>
+        <% for( let { atomicNumber, elementName, elementSymbol } of lanthanoids ) { %>
         <div id="<%= elementSymbol %>" class="container-element lanthanoids">
           <div class="container-element-atomic-number"><%= atomicNumber %> </div>
           <div class="container-element-symbol"><%= elementSymbol %> </div>
@@ -76,7 +76,7 @@
         <% } %>
       </div>
       <div class="container" id="periodic-table-actinoids">
-        <% for( let { atomicNumber, elementName, elementSymbol } of Actinoids ) { %>
+        <% for( let { atomicNumber, elementName, elementSymbol } of actinoids ) { %>
         <div id="<%= elementSymbol %>" class="container-element actinoids">
           <div class="container-element-number"><%= atomicNumber %> </div>
           <div class="container-element-symbol"><%= elementSymbol %> </div>
@@ -89,8 +89,8 @@
   <footer id="page-footer">
     <p>Visit this project's <a href="https://github.com/amartinsmg/PeriodicTable">repository</a>.<br>
       Made by <a href="https://amartinsmg.github.io">amartinsmg</a>.
-      <a href="https://www.flaticon.com/free-icons/copper" title="copper icons"
-      >Copper icons created by Smashicons - Flaticon</a>.
+      <a href="https://www.flaticon.com/free-icons/hydrogen" title="hydrogen icons"
+      >Hydrogen icons created by Smashicons - Flaticon</a>.
     </p>
   </footer>
 </body>
