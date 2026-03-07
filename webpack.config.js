@@ -8,9 +8,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin"),
   MiniCssExtractPlugin = require("mini-css-extract-plugin"),
   path = require("path"),
   TerserPlugin = require("terser-webpack-plugin"),
-  { readFileSync } = require("fs"),
-  JsonFile = readFileSync("data/periodic_table.json"),
-  Elements = JSON.parse(JsonFile);
+  elements = require("./data/periodic_table.json");
 
 module.exports = {
   /**
@@ -107,7 +105,7 @@ module.exports = {
       filename: "index.html",
       template: htmlWebpackPluginTemplateCustomizer({
         templatePath: "./src/index.ejs",
-        templateEjsLoaderOption: { data: { Elements } },
+        templateEjsLoaderOption: { data: { elements } },
       }),
     }),
     new MiniCssExtractPlugin({
