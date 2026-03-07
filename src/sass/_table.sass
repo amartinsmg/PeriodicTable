@@ -1,7 +1,7 @@
-@import _variables
+@use 'variables' as v
 
 #periodic-table
-  padding: 0 $periodic-table-margin-x
+  padding: 0 v.$periodic-table-margin-x
   overflow: auto
   margin: 0 auto
   &-main
@@ -12,7 +12,7 @@
   &-lanthanoids,
   &-actinoids
     display: grid
-    margin: 0.6rem 0 0 2 * $element-side + 0.4rem
+    margin: 0.6rem 0 0 2 * v.$element-side + 0.4rem
     grid-template-columns: repeat(16, 1fr)
     grid-template-rows: 1fr
     gap: 0.2rem
@@ -27,8 +27,8 @@
   grid-column: 3 / 13
 
 .container-element
-  width: $element-side
-  height: $element-side
+  width: v.$element-side
+  height: v.$element-side
   padding: 0.4rem
   cursor: pointer
   z-index: 1
@@ -42,64 +42,64 @@
     text-align: center
 
 .other-nonmetals
-  border-color: $bg-color-1
+  border-color: v.$bg-color-1
   &:hover
-    background: $bg-color-1
-    color: $color-2
+    background: v.$bg-color-1
+    color: v.$color-2
 
 .noble-gases
-  border-color: $bg-color-2
+  border-color: v.$bg-color-2
   &:hover
-    background: $bg-color-2
-    color: $color-1
+    background: v.$bg-color-2
+    color: v.$color-1
 
 .alkali-metals
-  border-color: $bg-color-3
+  border-color: v.$bg-color-3
   &:hover
-    background: $bg-color-3
-    color: $color-2
+    background: v.$bg-color-3
+    color: v.$color-2
 
 .alkaline-earth-metals
-  border-color: $bg-color-4
+  border-color: v.$bg-color-4
   &:hover
-    background: $bg-color-4
-    color: $color-2
+    background: v.$bg-color-4
+    color: v.$color-2
 
 .metalloids
-  border-color: $bg-color-5
+  border-color: v.$bg-color-5
   &:hover
-    background: $bg-color-5
-    color: $color-2
+    background: v.$bg-color-5
+    color: v.$color-2
 
 .halogens
-  border-color: $bg-color-6
+  border-color: v.$bg-color-6
   &:hover
-    background: $bg-color-6
-    color: $color-1
+    background: v.$bg-color-6
+    color: v.$color-1
 
 .transition-metals
-  border-color: $bg-color-7
+  border-color: v.$bg-color-7
   &:hover
-    background: $bg-color-7
-    color: $color-1
+    background: v.$bg-color-7
+    color: v.$color-1
 
 .post-transition-metals
-  border-color: $bg-color-8
+  border-color: v.$bg-color-8
   &:hover
-    background: $bg-color-8
-    color: $color-1
+    background: v.$bg-color-8
+    color: v.$color-1
 
 .lanthanoids
-  border-color: $bg-color-9
+  border-color: v.$bg-color-9
   &:hover
-    background: $bg-color-9
-    color: $color-1
+    background: v.$bg-color-9
+    color: v.$color-1
 
 .actinoids
-  border-color: $bg-color-10
+  border-color: v.$bg-color-10
   &:hover
-    background: $bg-color-10
-    color: $color-1
+    background: v.$bg-color-10
+    color: v.$color-1
 
 #white-space-Ba,
 #white-space-Ra
