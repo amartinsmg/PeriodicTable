@@ -1,0 +1,23 @@
+@use 'variables' as v
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap')
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  text-decoration: none
+
+html, body
+  min-height: 100vh
+  background: v.$secondary-color
+  color: v.$primary-color
+  font-family: 'Roboto', sans-serif
+  font-weight: 300
+  font-size: 13px
+
+h2, strong
+  font-weight: 500
+
+.non-display
+  display: none !important
