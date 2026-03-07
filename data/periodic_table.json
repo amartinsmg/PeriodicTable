@@ -439,7 +439,7 @@
         "boilingPoint": 4350.15
     },
     {
-        "elementName": "Rhodiium",
+        "elementName": "Rhodium",
         "elementSymbol": "Rh",
         "atomicNumber": 45,
         "classification": "Transition metals",
@@ -770,7 +770,7 @@
     },
     {
         "elementName": "Platinum",
-        "elementSymbol": "Pl",
+        "elementSymbol": "Pt",
         "atomicNumber": 78,
         "classification": "Transition metals",
         "atomicMass": 195.084,
@@ -799,7 +799,7 @@
         "boilingPoint": 629.85
     },
     {
-        "elementName": "Thalium",
+        "elementName": "Thallium",
         "elementSymbol": "Tl",
         "atomicNumber": 81,
         "classification": "Post-transition metals",
@@ -988,7 +988,7 @@
         "meltingPoint": 1133.15
     },
     {
-        "elementName": "Ferminum",
+        "elementName": "Fermium",
         "elementSymbol": "Fm",
         "atomicNumber": 100,
         "classification": "Actinoids",
