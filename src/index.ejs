@@ -7,15 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Periodic Table</title>
   <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
-  <!--
-    This code creates three new arrays from the original elements array. These are lanthanoids, actinoids, and mainGroupElements.
-  -->
-  <%
-    const elementsCopy = [...elements], 
-    lanthanoids = elementsCopy.splice(56, 15),
-    actinoids = elementsCopy.splice(73, 15),
-    mainGroupElements = elementsCopy;
-  %>
 </head>
 
 <body>
@@ -23,75 +14,8 @@
     <h1 id="page-header-heading">Periodic Table</h1>
   </header>
   <main id="page-main">
-    <div id="container-info-element">
-        <!--
-          This for loop follows iterates through all the elements in the elements array and creates a div for each element and the
-          information about it. The non-display class is added to all divs except for the one representing hydrogen (atomic number 1).
-        -->
-      <%
-        for( let { atomicNumber, atomicMass, elementName, elementSymbol, classification, density, meltingPoint, boilingPoint } of elements ) {
-      %>
-      <div class="info-element <%= atomicNumber != 1 ? "non-display" : "" %>" id="<%= elementSymbol %>-info">
-        <div class="info-element-box">
-          <div class="info-element-box-atomic-number"><%= atomicNumber %> </div>
-          <div class="info-element-box-symbol"><%= elementSymbol %> </div>
-        </div>
-        <div class="info-element-text">
-          <h2 class="info-element-text-heading"> <%= elementName %> </h2>
-          <div> <strong>Atomic mass:</strong> <%= atomicMass %> g/mol</div>
-          <div> <strong>Classification:</strong> <%= classification %> </div>
-          <div> <strong>Density:</strong> <%= density ? density + " g/cm\u00b3" : "N/A" %> </div>
-          <div> <strong>Melting point:</strong> <%= meltingPoint ? meltingPoint + " K" : "N/A" %> </div>
-          <div> <strong>Boiling point:</strong> <%= boilingPoint ? boilingPoint + " K" : "N/A" %> </div>
-        </div>
-      </div>
-      <% } %>
-    </div>
-    <div id="container-periodic-table">
-      <div id="periodic-table">
-        <div class="container" id="periodic-table-main">
-          <!--
-          This for loop creates divs for each element in the mainGroupElements array, and assigns them a class
-          based on their classification. It also adds divs with the class white-space for certain elements, which
-          create blank spaces in the periodic table to maintain its structure.
-        -->
-          <% for( let { atomicNumber, elementName, elementSymbol, classification } of mainGroupElements ) { %>
-          <div id="<%= elementSymbol %>" class="container-element <%= classification.toLowerCase().replace(/\s/g, "-") %>">
-            <div class="container-element-atomic-number"><%= atomicNumber %> </div>
-            <div class="container-element-symbol"><%= elementSymbol %> </div>
-            <div class="container-element-name"> <%= elementName %> </div>
-          </div>
-          <% if ([1, 4, 12, 56, 88].includes(atomicNumber)) { %>
-          <div class="white-space" id="white-space-<%= elementSymbol%>">
-            <%= atomicNumber == 56 ? "57-71" : atomicNumber == 88 ? "89-103" : "" %>
-          </div>
-          <% } %>
-          <% } %>
-        </div>
-        <!--
-        These for loops create divs for the Lanthanoids and Actinoids arrays, which are
-        displayed separately at the bottom of the periodic table.
-      -->
-        <div class="container" id="periodic-table-lanthanoids">
-          <% for( let { atomicNumber, elementName, elementSymbol } of lanthanoids ) { %>
-          <div id="<%= elementSymbol %>" class="container-element lanthanoids">
-            <div class="container-element-atomic-number"><%= atomicNumber %> </div>
-            <div class="container-element-symbol"><%= elementSymbol %> </div>
-            <div class="container-element-name"> <%= elementName %> </div>
-          </div>
-          <% } %>
-        </div>
-        <div class="container" id="periodic-table-actinoids">
-          <% for( let { atomicNumber, elementName, elementSymbol } of actinoids ) { %>
-          <div id="<%= elementSymbol %>" class="container-element actinoids">
-            <div class="container-element-number"><%= atomicNumber %> </div>
-            <div class="container-element-symbol"><%= elementSymbol %> </div>
-            <div class="container-element-name"> <%= elementName %> </div>
-          </div>
-          <% } %>
-        </div>
-      </div>
-    </div>
+    <%- include('partials/info-elements.ejs', {elements}) %>
+    <%- include('partials/table.ejs', {mainGroupElements, lanthanoids, actinoids}) %>
   </main>
   <footer id="page-footer">
     <p>Visit this project's <a href="https://github.com/amartinsmg/PeriodicTable">repository</a>.<br>
