@@ -1,24 +1,18 @@
-@use 'variables' as v;
-
-#container-info-element
-  display: flex
-  flex-direction: row 
-  justify-content: center
-  @media screen and (min-width: 1316px)
-    position: absolute
-    top: v.$page-header-height
-    right: 5 * v.$element-side
-    width: calc(100vw - 5 * v.$element-side)
+@use 'variables' as v
 
 .info-element
+  padding: 1.5rem v.$periodic-table-pad-x
   font-size: 1.2rem
-  padding: 1.5rem v.$periodic-table-margin-x
+  height: fit-content
+
   &-text
+    height: fit-content
     padding: 0.3rem
     letter-spacing: 0.01rem
     text-align: center
     &-heading
       padding: 1rem 0 0.7rem
+
   &-box
     height: 2 * v.$element-side
     border: 0.2rem solid v.$primary-color
@@ -33,15 +27,17 @@
       font-size: 4.8em
       font-weight: 500
       text-align: center
+
   @media screen and (min-width: 768px)
     padding: 2.4rem 4.8rem
     display: flex
     flex-direction: row
     justify-content: center
     gap: 2rem
-    height: 2.5 * v.$element-side
+
     &-box
       margin: 0
+
     &-text
       text-align: left
       &-heading
