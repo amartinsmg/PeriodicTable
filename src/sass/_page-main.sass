@@ -2,21 +2,23 @@
 
 #page-main
   margin: 0 auto
-  @media screen and (min-width: 1316px)
-    max-width: calc(18 * v.$element-side + 17 * v.$periodic-table-gap + 2 * v.$periodic-table-pad-x)
-    margin-top: - 3 * v.$element-side
 
   #container-info-element
     display: flex
     flex-direction: row
     justify-content: center
-    @media screen and (min-width: 1316px)
+
+  #container-periodic-table
+    padding: 0 v.$periodic-table-pad-x
+    overflow-x: auto
+
+  @media screen and (min-width: 1316px)
+    max-width: calc(18 * v.$element-side + 17 * v.$periodic-table-gap + 2 * v.$periodic-table-pad-x)
+    margin-top: - 3 * v.$element-side
+
+    #container-info-element
       position: relative
       width: fit-content
       left: calc(v.$periodic-table-pad-x + 2 * v.$element-side)
       top: 3 * v.$element-side
       justify-content: flex-start
-
-  #container-periodic-table
-    padding: 0 v.$periodic-table-pad-x
-    overflow-x: auto
