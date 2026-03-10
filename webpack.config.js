@@ -8,7 +8,16 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin"),
   MiniCssExtractPlugin = require("mini-css-extract-plugin"),
   path = require("path"),
   TerserPlugin = require("terser-webpack-plugin"),
-  elements = require("./data/periodic_table.json");
+  elements = require("./data/periodic_table.json"),
+  elementsCopy = elements.map((el) => ({
+    ...el,
+    cssClass: el.classification.toLowerCase().replace(/\s/g, "-"),
+  })),
+  lanthanoids = elementsCopy.filter((el) => el.cssClass === "lanthanoids"),
+  actinoids = elementsCopy.filter((el) => el.cssClass === "actinoids"),
+  mainGroupElements = elementsCopy.filter(
+    (el) => el.cssClass !== "lanthanoids" && el.cssClass !== "actinoids",
+  );
 
 module.exports = {
   /**
@@ -105,7 +114,14 @@ module.exports = {
       filename: "index.html",
       template: htmlWebpackPluginTemplateCustomizer({
         templatePath: "./src/index.ejs",
-        templateEjsLoaderOption: { data: { elements } },
+        templateEjsLoaderOption: {
+          data: {
+            elements,
+            mainGroupElements,
+            lanthanoids,
+            actinoids,
+          },
+        },
       }),
     }),
     new MiniCssExtractPlugin({
