@@ -1,0 +1,45 @@
+<div id="container-periodic-table">
+  <div id="periodic-table">
+    <div class="container" id="periodic-table-main">
+      <!--
+        This for loop creates divs for each element in the mainGroupElements array, and assigns them a class
+        based on their classification. It also adds divs with the class white-space for certain elements, which
+        create blank spaces in the periodic table to maintain its structure.
+      -->
+      <% for( let el of mainGroupElements ) { %>
+      <div id="<%= el.elementSymbol %>" class="container-element <%= el.cssClass %>">
+        <div class="container-element-atomic-number"><%= el.atomicNumber %> </div>
+        <div class="container-element-symbol"><%= el.elementSymbol %> </div>
+        <div class="container-element-name"> <%= el.elementName %> </div>
+      </div>
+      <% if ([1, 4, 12, 56, 88].includes(el.atomicNumber)) { %>
+      <div class="white-space" id="white-space-<%= el.elementSymbol %>">
+        <%= el.atomicNumber == 56 ? "57-71" : el.atomicNumber == 88 ? "89-103" : "" %>
+      </div>
+      <% } %>
+      <% } %>
+    </div>
+    <!--
+      These for loops create divs for the Lanthanoids and Actinoids arrays, which are
+      displayed separately at the bottom of the periodic table.
+    -->
+    <div class="container" id="periodic-table-lanthanoids">
+      <% for( let el of lanthanoids ) { %>
+      <div id="<%= el.elementSymbol %>" class="container-element <%= el.cssClass %>">
+        <div class="container-element-atomic-number"><%= el.atomicNumber %> </div>
+        <div class="container-element-symbol"><%= el.elementSymbol %> </div>
+        <div class="container-element-name"> <%= el.elementName %> </div>
+      </div>
+      <% } %>
+    </div>
+    <div class="container" id="periodic-table-actinoids">
+      <% for( let el of actinoids ) { %>
+      <div id="<%= el.elementSymbol %>" class="container-element <%= el.cssClass %>">
+        <div class="container-element-atomic-number"><%= el.atomicNumber %> </div>
+        <div class="container-element-symbol"><%= el.elementSymbol %> </div>
+        <div class="container-element-name"> <%= el.elementName %> </div>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</div>
