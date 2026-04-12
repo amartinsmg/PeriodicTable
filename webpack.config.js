@@ -68,11 +68,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/i,
-        use: "babel-loader",
-        exclude: /node_modules/,
-      },
-      {
         test: /\.ejs$/i,
         use: ["html-loader", "template-ejs-loader"],
       },
