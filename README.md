@@ -10,7 +10,6 @@ The project is built using **Embedded JavaScript (EJS)**, **SASS**, and **JavaSc
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E)
 ![EJS](https://img.shields.io/badge/EJS-8BC34A)
 ![SASS](https://img.shields.io/badge/SASS-CC6699)
-![Babel](https://img.shields.io/badge/Babel-EEDA7C)
 ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9)
 ![Yarn](https://img.shields.io/badge/Yarn-2C8EBB)
 
